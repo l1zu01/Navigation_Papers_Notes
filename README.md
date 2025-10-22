@@ -51,8 +51,39 @@
 ---
 
 ✅ **Tips**  
-- `📄 Notes` 链接路径可以改成你在仓库的相对路径，例如 `./VLN/xxx.md`。  
-- 你也可以为每个模块添加 emoji 或引用风格的描述，让版面更直观。  
-- GitHub 会自动渲染 Markdown 表格与超链接。
- 
+### 把Visual Exploration & Visual Navigation和 VLN 分开
+
+​​VLN的任务目标​​：通常是“遵循自然语言指令”。其核心是​​理解并执行​​指令所描述的路径和意图。这个过程本身就隐含了​​时序性和逐步性​​。评价一个VLN智能体好坏，不仅是看它最终是否到达了终点，还要看它走过的路径是否合乎指令的描述（比如，指令说“在厨房门口停下”，它就不能直接开进厨房深处）。VLN任务的一个关键目标是让智能体像人一样​​根据所见所闻进行推理和决策​​，而不是简单地调用一个全局路径规划器。更像是对“视觉语言智能”的探路石研究。
+
+早期的一些基于SLAM的机器人导航可能只是直接或间接的Point Navigation。最近的一些工作虽然有自然语言的成分，但它并没有实现“视觉语言智能”，只是用来帮助确定目标位置，最终又变成了Point Navigation
+
+![图](./assets/readme1.png)
+
+### 连续和离散环境
+
+按照所解决的任务是离散或者连续的环境来划分。比如R2R和VLN-CE就分别是离散和连续环境的数据集。离散环境应是由若干个可导航节点（viewpoints）构成的导航图。
+
+### object goal 或 route goal
+
+来源：Vision-Language Navigation: A Survey and Taxonomy
+
+即目标导向和指令导向
+
+![图](./assets/vlmaps1.png)
+
+### 依据导航前对环境的探索程度 No prior exploration 或 Pre-recorded prior exploration
+
+来源：On Evaluation of Embodied Navigation Agents
+
+### Memory Building
+
+![图](./assets/readme2.png)
+
+来源：A Survey of Robotic Navigation and Manipulation with Physics Simulators in the Era of Embodied AI
+
+### 依据论文的方法侧重于什么模块
+
+![图](./assets/readme3.png)
+
+来源：Vision-and-Language Navigation Today and Tomorrow: A Survey in the Era of Foundation Models
 

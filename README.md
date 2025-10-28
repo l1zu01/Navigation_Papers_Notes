@@ -30,6 +30,7 @@
 | 2025 | RA-L 25 | ApexNav: An Adaptive Exploration Strategy for Zero-Shot Object Navigation with Target-centric Semantic Fusion | 连续,object goal,No prior exploration,Map-based Memory(Explicit Memories) + Foundation Model-based 推理,VLM Agent | [📄 Notes](./Notes/ApexNav.md) |
 | 2025 | arxiv | JanusVLN: Decoupling Semantics and Spatiality with Dual Implicit Memory for Vision-Language Navigation | 连续,route goal,No prior exploration,Implicit Memory,VLM Agent | [📄 Notes](./Notes/JanusVLN.md) |
 | 2025 | CoRL 25 | GC-VLN: Instruction as Graph Constraints for Training-free Vision-and-Language Navigation | 连续,route goal,No prior exploration,...,Graph Planner | [📄 Notes](./Notes/GC-VLN.md) |
+| 2025 | IROS 25 Oral | WMNav: Integrating Vision-Language Models into World Models for Object Goal Navigation | 连续,object goal,No prior exploration,Map-based Memory(Explicit Memories) + World Model,VLM Agents | [📄 Notes](./Notes/wmnav.md) |
 | 2025 | arxiv | LOVON: Legged Open-Vocabulary Object Navigator | 连续,object goal,No prior exploration,...,VLM Agent | [📄 Notes] |
 | 2025 | CVPR 25 | Do Visual Imaginations Improve Vision-and-Language Navigation Agents? | 连续,route goal,No prior exploration,...,Graph Planner | [📄 Notes] |
 | 2025 | arxiv | HA-VLN: A Benchmark for Human-Aware Navigation in Discrete-Continuous Environments with Dynamic Multi-Human Interactions, Real-World Validation, and an Open Leaderboard | Benchmark | [📄 Notes] |

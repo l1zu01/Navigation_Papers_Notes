@@ -25,8 +25,7 @@
 |------|--------|--------------|---------|------|
 | 2018 | CVPR | Vision-and-Language Navigation (Anderson et al.) | ... | [📄 Notes] |
 | 2021 | ICCV | HAMT: Hierarchical Attention Memory Transformer for VLN | ... | [📄 Notes] |
-| 2025 | NIPS25 oral | Dynam3D: Dynamic Layered 3D Tokens Empower
-VLM for Vision-and-Language Navigation | 连续,mix goal,mix exploration,Map-based Memory+Latent Representation-based,Graph-based History | [📄 Notes](./Notes/Dynam3D.md) |
+| 2025 | NIPS25 oral | Dynam3D: Dynamic Layered 3D Tokens Empower VLM for Vision-and-Language Navigation | 连续,mix goal,mix exploration,Map-based Memory+Latent Representation-based,Graph-based History | [📄 Notes](./Notes/Dynam3D.md) |
 | 2025 | arxiv | TRAVEL: Training-Free Retrieval and Alignment for Vision-and-Language Navigation | 离散,route goal,Pre-recorded exploration,Graph-based memory,Graph Planner | [📄 Notes](./Notes/TRAVEL.md) |
 | 2025 | arxiv | FlexVLN: Flexible Adaptation for Diverse Vision-and-Language Navigation Tasks | 离散,object goal,No prior exploration,Foundation Model-based + Explicit Memories,LLM Planner | [📄 Notes](./Notes/FlexVLN.md) |
 | 2025 | RA-L 25 | ApexNav: An Adaptive Exploration Strategy for Zero-Shot Object Navigation with Target-centric Semantic Fusion | 连续,object goal,No prior exploration,Map-based Memory(Explicit Memories) + Foundation Model-based 推理,VLM Agent | [📄 Notes](./Notes/ApexNav.md) |

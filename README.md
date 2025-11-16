@@ -24,7 +24,13 @@
 | Year | Venue | Paper Title | Labels | Link |
 |------|--------|--------------|---------|------|
 | 2018 | CVPR | Vision-and-Language Navigation (Anderson et al.) | ... | [📄 Notes] |
-| 2021 | ICCV | HAMT: Hierarchical Attention Memory Transformer for VLN | ... | [📄 Notes] |
+| 2020 | ECCV20 | Active Visual Information Gathering for Vision-Language Navigation | ... | [📄 Notes] |
+| 2021 | NIPS21 | History Aware Multimodal Transformer for Vision-and-Language Navigation(HAMT) | ... | [📄 Notes] |
+| 2024 | RSS24 | NaVid: Video-based VLM Plans the Next Step for Vision-and-Language Navigation | ... | [📄 Notes] |
+| 2024 | ECCV24 | NavGPT-2: Unleashing Navigational Reasoning Capability for Large Vision-Language Models | ... | [📄 Notes] |
+| 2024 | arxiv | Uni-NaVid: A Video-based Vision-Language-Action
+Model for Unifying Embodied Navigation Tasks | ... | [📄 Notes] |
+| --- | --- | 以上是VLN较为经典的，意义较大的论文，以下是较新的 | --- | --- |
 | 2025 | NIPS25 | STRIDER: Navigation via Instruction-Aligned Structural Decision Space Optimization | 连续,route goal,No prior exploration,Map-based Memory+Foundation Model-Based,LLM Planner | [📄 Notes](./Notes/STRIDER.md) |
 | 2025 | NIPS25 oral | Dynam3D: Dynamic Layered 3D Tokens Empower VLM for Vision-and-Language Navigation | 连续,mix goal,mix exploration,Map-based Memory+Latent Representation-based,Graph-based History | [📄 Notes](./Notes/Dynam3D.md) |
 | 2025 | arxiv | TRAVEL: Training-Free Retrieval and Alignment for Vision-and-Language Navigation | 离散,route goal,Pre-recorded exploration,Graph-based memory,Graph Planner | [📄 Notes](./Notes/TRAVEL.md) |
